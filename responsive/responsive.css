@@ -1,24 +1,82 @@
-@media only screen and (max-width:480px) 
+@media only screen and  (min-width:1025px) and (max-width:1200px){
+  .nav-heading{
+    margin-left: 100px;
+  }
+  .nav-bar{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-right: 100px;
+  }
+  .menu-ul, .menu-icon i{
+    flex-wrap: nowrap;
+}
+.menu-icon{
+  display: flex;
+  float: right;
+  margin-left: 325px;
+  position: absolute;
+}
+.menu-icon i{
+  padding: 0 15px;
+}
+.menu-icon a {
+  width: 50%;
+}
+.section1-element{
+  margin-left: 100px;
+}
+.camera-images{
+  width: 45%;
+  margin-right: 20px;
+}
+.main-camera{
+  border-radius: 100%;
+  max-width: 100%;
+}
+};
+@media only screen and  (min-width:779px) and (max-width:1091px){
+  .nav-heading{
+    margin-left: 100px;
+  }
+  .nav-bar{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 500px;
+  }
+  .menu-ul{
+    flex-wrap: nowrap;
+    color: red;
+   
+  }
+  .menu-ul, .menu-icon i{
+    flex-wrap: nowrap;
+  }
+  .menu-icon{
+    display: flex;
+    float: right;
+    margin-left: 325px;
+    position: absolute;
+  }
+  .menu-icon i{
+    padding: 0 15px;
+  }
+  .menu-icon a {
+    width: 50%;
+  }
+
+  }
+    
+  
+/* 768 responsive end here */
+
+/* 480 responsive start here */
+/* @media only screen and (mix-width:480px)
 {
     
-    .nav-heading{
-      margin-left: 150px;
-    }
-    .nav-bar{
-      flex-wrap: nowrap;
-      flex-direction: column;
-
-    }
-    .menu-ul, .menu-icon i{
-      flex-wrap: nowrap;
-      margin-left: 15px;
-  }
-    .menu-icon{
-      display: flex;
-      float: right;
-      margin-left: 350px;
-      position: absolute;
-    }
+    
+    
+  
+    
     .menu-icon i{
       padding: 0 10px;
     }
@@ -45,5 +103,6 @@
       margin-left: 70px;
     }
     
-
 };
+/* 480 responsive end here */
+ */
