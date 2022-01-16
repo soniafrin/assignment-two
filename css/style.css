@@ -79,6 +79,17 @@ header{
     font-weight: 700;
     margin-top: 8px;
 }
+.camera-images{
+    border: 1px solid #e2dfdf80;
+    box-shadow: 0.5px 0.5px 20px #e2dfdf80;
+    padding: 15px;
+    border-radius: 50%;
+}
+.main-camera{
+    background-color:rgba(252, 250, 250, 0.7);
+    border-radius: 100%;
+    max-width: 100%;
+}
 .pre-book{
     text-decoration: none;
     background-color: #E02C6D;
@@ -104,17 +115,7 @@ header{
     transition: 0.5s;
     font-weight: 700;
 }
-.camera-images{
-    border: 1px solid #e2dfdf80;
-    box-shadow: 0.5px 0.5px 20px #e2dfdf80;
-    padding: 15px;
-    border-radius: 50%;
-}
-.main-camera{
-    background-color:rgba(252, 250, 250, 0.7);
-    border-radius: 100%;
-    max-width: 100%;
-}
+
 .main-camera:hover{
 
 }

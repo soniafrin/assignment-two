@@ -22,6 +22,28 @@
     .menu-icon i{
       padding: 0 10px;
     }
+    .section1-element{
+      flex-direction: column-reverse;
+      margin-top: 70px;
+      
+    }
+    .camera-images{
+     width: 90%;
+     margin-right: 50px;
+    }
+    .h1-sec1{
+      font-size: 2.5rem;
+      text-align: center;
+      margin-right: 50px;
+    }
+    .p1-sec1{
+      text-align: center;
+      margin-right: 50px;
+    }
+    .pre-book{
+      text-align: center;
+      margin-left: 70px;
+    }
     
 
 };
