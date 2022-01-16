@@ -24,14 +24,13 @@ header{
     font-weight: bold;
     color: #3A3A3A;
     margin-top: 79px;
-    margin-left: 150px;
-   
+    margin-left: 150px; 
 }
+
 .nav-bar{
     display: flex;
     flex-wrap: wrap;
-    flex: 3;
-    
+    flex: 3;   
 }
 .menu-ul{
     display: flex;  
@@ -119,5 +118,6 @@ header{
 .main-camera:hover{
 
 }
+
 
 
