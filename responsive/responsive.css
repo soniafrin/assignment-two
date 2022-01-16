@@ -2,18 +2,26 @@
 {
     
     .nav-heading{
-      margin-left: 100px;
+      margin-left: 150px;
     }
     .nav-bar{
-  
       flex-wrap: nowrap;
       flex-direction: column;
+
     }
     .menu-ul, .menu-icon i{
-      flex-wrap: nowrap; 
+      flex-wrap: nowrap;
+      margin-left: 15px;
   }
-    .menu-icon i{
+    .menu-icon{
       display: flex;
-      flex-direction: row;
+      float: right;
+      margin-left: 350px;
+      position: absolute;
     }
+    .menu-icon i{
+      padding: 0 10px;
+    }
+    
+
 };
